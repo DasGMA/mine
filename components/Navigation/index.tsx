@@ -47,7 +47,12 @@ const Navigation: React.FC = () => {
   return (
     <AppBar position="fixed" sx={appBarSx}>
       <Container maxWidth="lg" disableGutters>
-        <Toolbar sx={{ display: "flex", justifyContent: "space-between" }}>
+        <Toolbar
+          sx={{
+            display: "flex",
+            justifyContent: "space-between",
+          }}
+        >
           <Box display="inline-flex" alignItems="center" ml={-2}>
             <Link href="#intro">
               <Image src={logo} alt="Das Ma" width={60} height={60} />
