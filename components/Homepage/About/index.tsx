@@ -26,26 +26,36 @@ const About = () => {
       <Grid container flexWrap="nowrap" gap={5}>
         <Grid container direction="column" alignItems="flex-start" rowGap={2}>
           <Grid container alignItems="center">
-            <Divider textAlign="left" sx={{ width: "100%" }}>
-              <Typography variant="h2" color="info.main">
-                About Me
-              </Typography>
-            </Divider>
+            <Grid
+              container
+              alignItems="center"
+              flexWrap="nowrap"
+              justifyContent="space-between"
+            >
+              <Divider
+                textAlign="left"
+                sx={{ width: { xs: "85%", md: "100%" } }}
+              >
+                <Typography variant="h2" color="info.main">
+                  About Me
+                </Typography>
+              </Divider>
+              <Box
+                sx={{
+                  filter: "grayscale(1)",
+                  display: { xs: "block", md: "none" },
+                }}
+              >
+                <Image
+                  src={me}
+                  alt="Das Ma"
+                  width={100}
+                  height={100}
+                  style={{ borderRadius: "50%" }}
+                />
+              </Box>
+            </Grid>
           </Grid>
-          <Box
-            sx={{
-              filter: "grayscale(1)",
-              display: { xs: "block", md: "none" },
-            }}
-          >
-            <Image
-              src={me}
-              alt="Das Ma"
-              width={150}
-              height={150}
-              style={{ borderRadius: "50%" }}
-            />
-          </Box>
           <Typography>
             Hello! My name is Das and I love bulding things for the Web and
             Mobile. My interest in software development started back in 2018
