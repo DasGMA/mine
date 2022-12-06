@@ -16,7 +16,7 @@ function MyApp({ Component, pageProps }: AppProps) {
     } else if (window.innerWidth > 900 && resized !== true) {
       setResized(true);
     }
-  }, []);
+  }, [resized]);
 
   useEffect(() => {
     window.addEventListener("resize", resize);

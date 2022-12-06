@@ -30,7 +30,7 @@ const Intro = () => {
           href="mailto:dasgrigoma@gmail.com?subject=Let's talk coding!"
           sx={{ mt: 3, height: 60, width: { xs: "100%", sm: 200 } }}
         >
-          Let's talk coding
+          Let&apos;s talk coding
         </Button>
       </Grid>
     </Grid>
