@@ -15,7 +15,7 @@ const Home: NextPage = () => {
           name="description"
           content="I am a software developer and QA automation engineer specializing in building and testing Web based solutions. Currently, I am focusing on Testing frameworks and methodologies."
         />
-        <link rel="shortcut icon" href="/favicon.ico" />
+        <link rel="icon" href="/favicon.ico" />
       </Head>
       <Container maxWidth="lg" disableGutters>
         <Intro />
