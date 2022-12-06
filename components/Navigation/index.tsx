@@ -5,7 +5,7 @@ import {
   Container,
   IconButton,
   keyframes,
-  Link,
+  Link as MLink,
   Menu,
   MenuItem,
   Toolbar,
@@ -13,6 +13,7 @@ import {
 import Image from "next/image";
 import logo from "../../assets/drawing.svg";
 import MenuIcon from "@mui/icons-material/Menu";
+import Link from "next/link";
 
 const animation = keyframes`
   0% {
@@ -54,7 +55,7 @@ const Navigation: React.FC = () => {
           }}
         >
           <Box display="inline-flex" alignItems="center" ml={-2}>
-            <Link href="#welcome-section">
+            <Link href="/" passHref>
               <Image src={logo} alt="Das Ma" width={50} height={50} />
             </Link>
           </Box>
@@ -80,13 +81,18 @@ const Navigation: React.FC = () => {
               onClose={handleCloseUserMenu}
             >
               <MenuItem onClick={handleCloseUserMenu}>
-                <Link href="#About" underline="none">
+                <MLink href="/#About" underline="none">
                   About
-                </Link>
+                </MLink>
               </MenuItem>
               <MenuItem onClick={handleCloseUserMenu}>
-                <Link href="#projects" underline="none">
+                <MLink href="/#projects" underline="none">
                   Work
+                </MLink>
+              </MenuItem>
+              <MenuItem onClick={handleCloseUserMenu}>
+                <Link href="/resume" passHref>
+                  <MLink underline="none">Resume</MLink>
                 </Link>
               </MenuItem>
             </Menu>

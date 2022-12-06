@@ -1,4 +1,4 @@
-import { Button, Divider, Grid, Typography } from "@mui/material";
+import { Button, Grid, Typography } from "@mui/material";
 
 const textSx = { maxWidth: { xs: "100%", md: 600 }, width: "100%", mt: 3 };
 
