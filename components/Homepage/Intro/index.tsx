@@ -15,7 +15,7 @@ const Intro = () => {
       <Grid container direction="column" alignItems="flex-start">
         <Typography variant="h2">Hello, my name is</Typography>
         <Typography variant="h1">Das Ma.</Typography>
-        <Typography variant="h3" color="textSecondary">
+        <Typography variant="h3" color="textSecondary" mt={3}>
           I build front-end and back-end things.
         </Typography>
 
@@ -28,7 +28,7 @@ const Intro = () => {
           variant="contained"
           component="a"
           href="mailto:dasgrigoma@gmail.com?subject=Let's talk coding!"
-          sx={{ mt: 3, height: 60, width: { xs: "100%", sm: 200 } }}
+          sx={{ mt: 4, height: 60, width: { xs: "100%", sm: 200 } }}
         >
           Let&apos;s talk coding
         </Button>

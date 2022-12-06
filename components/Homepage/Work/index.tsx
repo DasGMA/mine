@@ -71,7 +71,7 @@ const Work: React.FC = () => {
         scrollMarginTop: (theme) => theme.mixins.toolbar.minHeight,
       }}
       px={{ xs: 0, md: 8 }}
-      pt={2}
+      pt={4}
       id="Work"
     >
       <Typography variant="h2" textAlign="left" width="100%" mb={4}>

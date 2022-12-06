@@ -15,8 +15,12 @@ const About = () => {
       container
       justifyContent="center"
       alignItems="center"
-      sx={{ minHeight: "100vh" }}
+      sx={{
+        minHeight: "100vh",
+        scrollMarginTop: (theme) => theme.mixins.toolbar.minHeight,
+      }}
       px={{ xs: 0, md: 8 }}
+      pt={4}
       id="About"
     >
       <Grid container flexWrap="nowrap" gap={5}>
