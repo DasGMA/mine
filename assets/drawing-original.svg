@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="256"
+   height="256"
+   viewBox="0 0 256 256"
+   version="1.1"
+   id="SVGRoot"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs1412">
+    <filter
+       style="color-interpolation-filters:sRGB"
+       id="filter308"
+       x="0"
+       y="0"
+       width="1"
+       height="1">
+      <feColorMatrix
+         type="luminanceToAlpha"
+         result="result2"
+         id="feColorMatrix300" />
+      <feComposite
+         in2="SourceGraphic"
+         operator="arithmetic"
+         in="result2"
+         k3="2"
+         result="result4"
+         id="feComposite302"
+         k1="0"
+         k2="0"
+         k4="0" />
+      <feBlend
+         in="result4"
+         mode="multiply"
+         result="result3"
+         in2="result2"
+         id="feBlend304" />
+      <feComposite
+         in2="SourceGraphic"
+         operator="in"
+         in="result3"
+         id="feComposite306" />
+    </filter>
+  </defs>
+  <g
+     id="layer1">
+    <g
+       id="g5093"
+       transform="rotate(90,128.00004,128.00011)"
+       style="filter:url(#filter308)">
+      <g
+         id="g314"
+         transform="translate(14.125132,-3.6451953)">
+        <text
+           xml:space="preserve"
+           style="font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;font-size:195.334px;font-family:'Source Code Pro';-inkscape-font-specification:'Source Code Pro, Light';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#060606;fill-opacity:1;stroke-width:16.278"
+           x="-121.58675"
+           y="212.6561"
+           id="text3466"
+           transform="scale(-1.116305,0.89581252)"><tspan
+             id="tspan3464"
+             x="-121.58675"
+             y="212.6561"
+             style="font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;font-size:195.334px;font-family:'Source Code Pro';-inkscape-font-specification:'Source Code Pro, Light';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#060606;fill-opacity:1;stroke-width:16.2779">D</tspan></text>
+        <text
+           xml:space="preserve"
+           style="font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;font-size:174.957px;font-family:'Source Code Pro';-inkscape-font-specification:'Source Code Pro, Light';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#060606;fill-opacity:1;stroke-width:14.5798"
+           x="100.31968"
+           y="190.41003"
+           id="text3470"
+           transform="scale(0.99985502,1.000145)"><tspan
+             id="tspan3468"
+             x="100.31968"
+             y="190.41003"
+             style="font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;font-size:174.957px;font-family:'Source Code Pro';-inkscape-font-specification:'Source Code Pro, Light';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#060606;fill-opacity:1;stroke-width:14.5798">M</tspan></text>
+        <text
+           xml:space="preserve"
+           style="font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;font-size:174.957px;font-family:'Source Code Pro';-inkscape-font-specification:'Source Code Pro, Light';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#060606;fill-opacity:1;stroke-width:14.5798"
+           x="100.31988"
+           y="-75.113075"
+           id="text1167"
+           transform="scale(0.99985502,-1.000145)"><tspan
+             id="tspan1165"
+             x="100.31988"
+             y="-75.113075"
+             style="font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;font-size:174.957px;font-family:'Source Code Pro';-inkscape-font-specification:'Source Code Pro, Light';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#060606;fill-opacity:1;stroke-width:14.5798">M</tspan></text>
+      </g>
+    </g>
+  </g>
+</svg>
