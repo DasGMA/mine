@@ -15,6 +15,7 @@ import productpage from "../../../assets/images/productpage.png";
 import fancysteakhouse from "../../../assets/images/fancysteakhouse.png";
 import tribute from "../../../assets/images/tribute.png";
 import spaceshootergame from "../../../assets/images/spaceshootergame.png";
+import next from "../../../assets/images/next.png";
 
 const imageBoxSx = {
   cursor: "pointer",
@@ -71,14 +72,14 @@ const Work: React.FC = () => {
         scrollMarginTop: (theme) => theme.mixins.toolbar.minHeight,
       }}
       px={{ xs: 0, md: 8 }}
-      pt={4}
-      id="Work"
+      id="projects"
     >
       <Typography variant="h2" textAlign="left" width="100%" mb={4}>
         My Work
       </Typography>
       <Grid container direction="column" alignItems="flex-start">
         <Grid
+          id="project-title"
           component={Paper}
           container
           item
@@ -96,8 +97,8 @@ const Work: React.FC = () => {
             <Image
               src={workreactor}
               alt="Work Reactor Inc website"
-              width={900}
-              height={450}
+              width={950}
+              height={500}
             />
           </Link>
           <Box sx={RBoxSx}>
@@ -154,8 +155,8 @@ const Work: React.FC = () => {
             <Image
               src={productpage}
               alt="BMW electric bike product page"
-              width={900}
-              height={450}
+              width={950}
+              height={500}
             />
           </Link>
           <Box sx={LBoxSx}>
@@ -197,8 +198,8 @@ const Work: React.FC = () => {
             <Image
               src={fancysteakhouse}
               alt="Fancy restaurant landing page"
-              width={900}
-              height={450}
+              width={950}
+              height={500}
             />
           </Link>
 
@@ -241,9 +242,9 @@ const Work: React.FC = () => {
           >
             <Image
               src={tribute}
-              alt="Nicola Tesla trubute page"
-              width={900}
-              height={450}
+              alt="Nikola Tesla trubute page"
+              width={950}
+              height={500}
             />
           </Link>
 
@@ -285,8 +286,8 @@ const Work: React.FC = () => {
             <Image
               src={spaceshootergame}
               alt="Space shooting game"
-              width={900}
-              height={450}
+              width={950}
+              height={500}
             />
           </Link>
           <Box sx={RBoxSx}>
@@ -307,6 +308,51 @@ const Work: React.FC = () => {
               />
               <Chip label={<Typography variant="caption">Canvas</Typography>} />
               <Chip label={<Typography variant="caption">OOP</Typography>} />
+              <Chip label={<Typography variant="caption">CSS</Typography>} />
+            </Box>
+          </Box>
+        </Grid>
+        <Grid
+          component={Paper}
+          container
+          item
+          direction={{ xs: "column", md: "row-reverse" }}
+          alignItems="center"
+          flexWrap={{ xs: "wrap", md: "nowrap" }}
+          p={{ xs: 2, md: 4 }}
+          mt={10}
+        >
+          <Link
+            href="https://endearing-cajeta-51566a.netlify.app"
+            target="_blank"
+            rel="noreferrer noopener"
+            sx={imageBoxSx}
+          >
+            <Image
+              src={next}
+              alt="Next.js documentation page."
+              width={950}
+              height={500}
+            />
+          </Link>
+
+          <Box sx={LBoxSx}>
+            <Typography variant="h4" component="h3" color="info.main">
+              Documentation
+            </Typography>
+            <Typography>
+              College work to create a Documentation Page. I have decided to
+              create one for JS framework - Next.js.
+            </Typography>
+            <Divider textAlign="left" sx={{ mb: 1 }}>
+              <Typography variant="caption" color="primary">
+                Technologies
+              </Typography>
+            </Divider>
+            <Box sx={chipsBoxSx}>
+              <Chip
+                label={<Typography variant="caption">Next.js</Typography>}
+              />
               <Chip label={<Typography variant="caption">CSS</Typography>} />
             </Box>
           </Box>

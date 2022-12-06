@@ -6,7 +6,7 @@ const Intro = () => {
   return (
     <>
       <Grid
-        id="intro"
+        id="welcome-section"
         container
         justifyContent="center"
         alignItems="center"
@@ -21,9 +21,16 @@ const Intro = () => {
           </Typography>
 
           <Typography sx={textSx}>
-            I am a software developer and QA automation engineer specializing in
-            building and testing Web based solutions. Currently, I am focusing
-            on Testing frameworks and methodologies.
+            I am a{" "}
+            <Typography component="span" color="info.main">
+              Software Developer
+            </Typography>{" "}
+            and{" "}
+            <Typography component="span" color="info.main">
+              QA Automation Engineer
+            </Typography>
+            , specializing in building and testing Web based solutions.
+            Currently, I am focusing on Testing frameworks and methodologies.
           </Typography>
           <Button
             variant="contained"
@@ -34,19 +41,6 @@ const Intro = () => {
             Let&apos;s talk coding
           </Button>
         </Grid>
-        <Divider
-          sx={{
-            width: "100%",
-            display: {
-              xs: "none",
-              sm: "flex",
-            },
-          }}
-        >
-          <Typography color="info.main" component="cite" variant="h5">
-            Simplicity is the beauty of efficiency.
-          </Typography>
-        </Divider>
       </Grid>
     </>
   );

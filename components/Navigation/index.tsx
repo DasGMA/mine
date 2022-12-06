@@ -45,7 +45,7 @@ const Navigation: React.FC = () => {
   };
 
   return (
-    <AppBar position="fixed" sx={appBarSx}>
+    <AppBar id="navbar" position="fixed" sx={appBarSx}>
       <Container maxWidth="lg" disableGutters>
         <Toolbar
           sx={{
@@ -54,8 +54,8 @@ const Navigation: React.FC = () => {
           }}
         >
           <Box display="inline-flex" alignItems="center" ml={-2}>
-            <Link href="#intro">
-              <Image src={logo} alt="Das Ma" width={60} height={60} />
+            <Link href="#welcome-section">
+              <Image src={logo} alt="Das Ma" width={50} height={50} />
             </Link>
           </Box>
           <Box sx={{ flexGrow: 0 }}>
@@ -85,7 +85,7 @@ const Navigation: React.FC = () => {
                 </Link>
               </MenuItem>
               <MenuItem onClick={handleCloseUserMenu}>
-                <Link href="#Work" underline="none">
+                <Link href="#projects" underline="none">
                   Work
                 </Link>
               </MenuItem>

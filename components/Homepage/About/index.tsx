@@ -48,9 +48,19 @@ const About = () => {
           </Typography>
           <Typography>
             Nowadays, a few years later, I had oportunities to work for some
-            Canadian early startups: Realm company, Work Reactor Inc., and
-            currently at Transcepta LLC (as a Software Developement Engineer in
-            Test).
+            Canadian early startups:{" "}
+            <Typography component="span" color="info.main">
+              Realm Company
+            </Typography>
+            ,{" "}
+            <Typography component="span" color="info.main">
+              Work Reactor Inc.
+            </Typography>
+            , and currently at{" "}
+            <Typography component="span" color="info.main">
+              Transcepta LLC
+            </Typography>{" "}
+            (as a Software Developement Engineer in Test).
           </Typography>
           <Typography>
             Here are a few technologies I have worked with:
