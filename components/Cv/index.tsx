@@ -15,7 +15,7 @@ const Cv: React.FC = () => {
       justifyContent="center"
       alignItems="center"
       px={{ xs: 0, md: 8 }}
-      sx={{ mt: (theme) => `calc(${theme.mixins.toolbar.minHeight}px + 10px)` }}
+      sx={{ mt: (theme) => `calc(${theme.mixins.toolbar.minHeight}px + 30px)` }}
     >
       <Grid container direction="column" rowSpacing={4}>
         <Grid item>
@@ -33,7 +33,7 @@ const Cv: React.FC = () => {
           <Typography variant="h5" component="h3" color="primary">
             WORKREACTOR INC. (2020 - 2022) - California, Long Beach
           </Typography>
-          <Typography>FULL STACK DEVELOPER</Typography>
+          <Typography color="textSecondary">Full Stack Developer</Typography>
           <List>
             <ListItem>
               <ListItemIcon>
@@ -59,7 +59,7 @@ const Cv: React.FC = () => {
               <ListItemIcon>
                 <Circle />
               </ListItemIcon>
-              <ListItemText primary="Cooperated with a team to deploy frontend and backend applications to AWS cloud-based system. Implemented stringent security guidelines and Secure Development Lifecycle practice" />
+              <ListItemText primary="Cooperated with a team to deploy frontend and backend applications to AWS cloud-based system. Implemented stringent security guidelines and Software Development Life Cycle practices" />
             </ListItem>
             <ListItem>
               <ListItemIcon>
@@ -95,7 +95,7 @@ const Cv: React.FC = () => {
           <Typography variant="h5" component="h3" color="primary">
             REALM (2019 - 2020) - California, Long Beach / Canada, Victoria
           </Typography>
-          <Typography>REACT NATIVE DEVELOPER</Typography>
+          <Typography color="textSecondary">React Native Developer</Typography>
           <List>
             <ListItem>
               <ListItemIcon>
@@ -134,7 +134,7 @@ const Cv: React.FC = () => {
               <ListItemIcon>
                 <Circle />
               </ListItemIcon>
-              <ListItemText primary="Worked in Agile environment, collaborated with cross – functional team" />
+              <ListItemText primary="Worked in Agile environment, collaborated with cross U+002d functional team" />
             </ListItem>
             <ListItem>
               <ListItemIcon>
@@ -183,6 +183,13 @@ const Cv: React.FC = () => {
             EDUCATION
           </Typography>
           <Typography variant="h5" component="h3" color="primary">
+            LBCC
+          </Typography>
+          <Typography color="textSecondary">
+            (2022 - current) AS Computer Technologies
+          </Typography>
+
+          <Typography variant="h5" component="h3" color="primary" mt={2}>
             LAMBDA SCHOOL
           </Typography>
           <Typography color="textSecondary">
@@ -207,6 +214,8 @@ const Cv: React.FC = () => {
             <ListItem
               component="a"
               href="https://www.hackerrank.com/certificates/f069d45c39c3"
+              rel="noopener noreferrer"
+              target="_blank"
               sx={{ color: "rgba(0, 0, 0, 0.87)", px: 0 }}
             >
               JavasCript HackerRank
@@ -215,6 +224,7 @@ const Cv: React.FC = () => {
               component="a"
               href="https://triplebyte.com/tb/das-ma-soywur3/certificate"
               rel="noopener noreferrer"
+              target="_blank"
               sx={{ color: "rgba(0, 0, 0, 0.87)", px: 0 }}
             >
               Triplebyte Certified

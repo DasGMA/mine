@@ -74,9 +74,11 @@ const Work: React.FC = () => {
       px={{ xs: 0, md: 8 }}
       id="projects"
     >
-      <Typography variant="h2" textAlign="left" width="100%" mb={4}>
-        My Work
-      </Typography>
+      <Divider textAlign="left" sx={{ width: "100%", mb: 4 }}>
+        <Typography variant="h2" width="100%" color="info.main">
+          My Work
+        </Typography>
+      </Divider>
       <Grid container direction="column" alignItems="flex-start">
         <Grid
           id="project-title"

@@ -1,4 +1,4 @@
-import { Box, Chip, Grid, Typography } from "@mui/material";
+import { Box, Chip, Divider, Grid, Typography } from "@mui/material";
 import Image from "next/image";
 
 import me from "../../../assets/images/me.jpg";
@@ -25,6 +25,13 @@ const About = () => {
     >
       <Grid container flexWrap="nowrap" gap={5}>
         <Grid container direction="column" alignItems="flex-start" rowGap={2}>
+          <Grid container alignItems="center">
+            <Divider textAlign="left" sx={{ width: "100%" }}>
+              <Typography variant="h2" color="info.main">
+                About Me
+              </Typography>
+            </Divider>
+          </Grid>
           <Box
             sx={{
               filter: "grayscale(1)",
@@ -39,7 +46,6 @@ const About = () => {
               style={{ borderRadius: "50%" }}
             />
           </Box>
-          <Typography variant="h2">About Me</Typography>
           <Typography>
             Hello! My name is Das and I love bulding things for the Web and
             Mobile. My interest in software development started back in 2018
@@ -56,14 +62,14 @@ const About = () => {
             <Typography component="span" color="info.main">
               Work Reactor Inc.
             </Typography>
-            , and currently at{" "}
+            . Currently working at{" "}
             <Typography component="span" color="info.main">
               Transcepta LLC
             </Typography>{" "}
-            (as a Software Developement Engineer in Test).
+            as a Software Developement Engineer in Test.
           </Typography>
           <Typography>
-            Here are a few technologies I have worked with:
+            Here are some technologies I have worked with:
           </Typography>
           <Box sx={chipsBoxSx}>
             <Chip label={<Typography variant="caption">Next.js</Typography>} />
