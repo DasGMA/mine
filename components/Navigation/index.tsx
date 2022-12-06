@@ -54,7 +54,12 @@ const Navigation: React.FC = () => {
             justifyContent: "space-between",
           }}
         >
-          <Box display="inline-flex" alignItems="center" ml={-2}>
+          <Box
+            display="inline-flex"
+            alignItems="center"
+            ml={-1.8}
+            sx={{ cursor: "pointer" }}
+          >
             <Link href="/" passHref>
               <Image src={logo} alt="Das Ma" width={50} height={50} />
             </Link>

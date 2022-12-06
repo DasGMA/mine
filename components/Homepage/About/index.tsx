@@ -53,8 +53,8 @@ const About = () => {
             IT - iTech LLC company.
           </Typography>
           <Typography>
-            Nowadays, a few years later, I had oportunities to work for some
-            Canadian early startups:{" "}
+            Nowadays, a few years later, I had opportunities to work for some
+            early startups:{" "}
             <Typography component="span" color="info.main">
               Realm Company
             </Typography>

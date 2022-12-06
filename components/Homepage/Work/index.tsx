@@ -19,10 +19,13 @@ import next from "../../../assets/images/next.png";
 
 const imageBoxSx = {
   cursor: "pointer",
-  filter: "grayscale(0.5)",
+  filter: { xs: "none", md: "grayscale(0.5)" },
   transition: "all 0.25s linear",
   display: "flex",
   alignIterms: "center",
+  boxShadow: 4,
+  borderRadius: 1,
+  overflow: "hidden",
   "&:hover": {
     filter: "grayscale(0)",
     transform: { xs: "none", md: "scale(1.22)" },
@@ -32,6 +35,7 @@ const imageBoxSx = {
 const RBoxSx = {
   p: 4,
   ml: { xs: 0, md: -4 },
+  mt: { xs: 2, md: 0 },
   zIndex: 10,
   bgcolor: "#eeeeee",
   display: "flex",
@@ -45,6 +49,7 @@ const RBoxSx = {
 const LBoxSx = {
   p: 4,
   mr: { xs: 0, md: -4 },
+  mt: { xs: 2, md: 0 },
   zIndex: 10,
   bgcolor: "#eeeeee",
   display: "flex",
@@ -74,7 +79,10 @@ const Work: React.FC = () => {
       px={{ xs: 0, md: 8 }}
       id="projects"
     >
-      <Divider textAlign="left" sx={{ width: "100%", mb: 4 }}>
+      <Divider
+        textAlign="left"
+        sx={{ width: "100%", mb: 4, mt: { xs: 6, md: 0 } }}
+      >
         <Typography variant="h2" width="100%" color="info.main">
           My Work
         </Typography>
@@ -167,7 +175,7 @@ const Work: React.FC = () => {
             </Typography>
             <Typography>
               College work, Product Page, that I have got an inspiration from
-              BMW wbsite.
+              BMW website.
             </Typography>
             <Divider textAlign="left" sx={{ mb: 1 }}>
               <Typography variant="caption" color="primary">

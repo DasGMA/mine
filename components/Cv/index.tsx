@@ -134,7 +134,7 @@ const Cv: React.FC = () => {
               <ListItemIcon>
                 <Circle />
               </ListItemIcon>
-              <ListItemText primary="Worked in Agile environment, collaborated with cross U+002d functional team" />
+              <ListItemText primary="Worked in Agile environment, collaborated with cross – functional team" />
             </ListItem>
             <ListItem>
               <ListItemIcon>
