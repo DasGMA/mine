@@ -66,6 +66,7 @@ const Socials = ({ resized }: ISocials) => {
         <Link
           href="https://www.linkedin.com/in/dasma/"
           rel="noopener noreferrer"
+          target="_blank"
           sx={socialsSx}
           id="profile-link"
         >
@@ -74,6 +75,7 @@ const Socials = ({ resized }: ISocials) => {
         <Link
           href="https://github.com/DasGMA"
           rel="noopener noreferrer"
+          target="_blank"
           sx={socialsSx}
         >
           <GitHubIcon fontSize="large" />
