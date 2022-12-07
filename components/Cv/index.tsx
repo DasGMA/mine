@@ -19,7 +19,7 @@ const Cv: React.FC = () => {
     >
       <Grid container direction="column" rowSpacing={4}>
         <Grid item>
-          <Typography variant="h2" color="info.main">
+          <Typography variant="h2" component="h1" color="info.main">
             WORK EXPERIENCE
           </Typography>
           <Typography variant="h5" component="h3" color="primary">
