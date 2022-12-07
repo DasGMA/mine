@@ -23,7 +23,7 @@ const Intro = () => {
           <Typography sx={textSx}>
             I am a{" "}
             <Typography component="span" color="info.main">
-              Software Developer
+              Fullstack Software Developer
             </Typography>{" "}
             and{" "}
             <Typography component="span" color="info.main">
