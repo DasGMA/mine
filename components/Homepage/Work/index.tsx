@@ -117,7 +117,14 @@ const Work: React.FC = () => {
             </Typography>
             <Typography>
               Social network for startups to connect with investors and find
-              workforce.
+              workforce.{" "}
+              <Link
+                href="https://master.dh8kmgof8txbs.amplifyapp.com/"
+                target="_blank"
+                rel="noreferrer noopener"
+              >
+                Live site
+              </Link>
             </Typography>
             <Divider textAlign="left" sx={{ mb: 1 }}>
               <Typography variant="caption" color="primary">
@@ -175,7 +182,14 @@ const Work: React.FC = () => {
             </Typography>
             <Typography>
               College work, Product Page, that I have got an inspiration from
-              BMW website.
+              BMW website.{" "}
+              <Link
+                href="https://ProductPage.dasma.repl.co"
+                target="_blank"
+                rel="noreferrer noopener"
+              >
+                Live site
+              </Link>
             </Typography>
             <Divider textAlign="left" sx={{ mb: 1 }}>
               <Typography variant="caption" color="primary">
@@ -220,7 +234,14 @@ const Work: React.FC = () => {
             <Typography>
               College work to create a survey form. I found it not challenging,
               so I decided to build a Steakhouse Home Page with a required
-              Survey Form.
+              Survey Form.{" "}
+              <Link
+                href="https://codepen.io/dasgma-the-typescripter/full/abGmWzr"
+                target="_blank"
+                rel="noreferrer noopener"
+              >
+                Live site
+              </Link>
             </Typography>
             <Divider textAlign="left" sx={{ mb: 1 }}>
               <Typography variant="caption" color="primary">
@@ -264,7 +285,14 @@ const Work: React.FC = () => {
             </Typography>
             <Typography>
               College work to create a Tribute Page. I have dedicated it to
-              Nikola Tesla.
+              Nikola Tesla.{" "}
+              <Link
+                href="https://codepen.io/dasgma-the-typescripter/full/bGMVzxN"
+                target="_blank"
+                rel="noreferrer noopener"
+              >
+                Live site
+              </Link>
             </Typography>
             <Divider textAlign="left" sx={{ mb: 1 }}>
               <Typography variant="caption" color="primary">
@@ -305,7 +333,14 @@ const Work: React.FC = () => {
               The Game
             </Typography>
             <Typography>
-              A Space Shooter Game created in my early days of coding.
+              A Space Shooter Game created in my early days of coding.{" "}
+              <Link
+                href="https://guardians-of-the-galaxy-crazy-ugly-space-game.netlify.app/"
+                target="_blank"
+                rel="noreferrer noopener"
+              >
+                Live site
+              </Link>
             </Typography>
             <Divider textAlign="left" sx={{ mb: 1 }}>
               <Typography variant="caption" color="primary">
@@ -352,7 +387,14 @@ const Work: React.FC = () => {
             </Typography>
             <Typography>
               College work to create a Documentation Page. I have decided to
-              create one for JS framework - Next.js.
+              create one for JS framework - Next.js.{" "}
+              <Link
+                href="https://endearing-cajeta-51566a.netlify.app"
+                target="_blank"
+                rel="noreferrer noopener"
+              >
+                Live site
+              </Link>
             </Typography>
             <Divider textAlign="left" sx={{ mb: 1 }}>
               <Typography variant="caption" color="primary">
