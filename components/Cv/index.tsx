@@ -22,7 +22,7 @@ const Cv: React.FC = () => {
           <Typography variant="h2" component="h1" color="info.main">
             WORK EXPERIENCE
           </Typography>
-          <Typography variant="h5" component="h3" color="primary">
+          <Typography variant="h5" component="h3" color="primary" mt={1}>
             TRANSCEPTA LLC (2022 - current) - California, Long Beach
           </Typography>
           <Typography color="textSecondary">
@@ -218,7 +218,7 @@ const Cv: React.FC = () => {
               target="_blank"
               sx={{ color: "rgba(0, 0, 0, 0.87)", px: 0 }}
             >
-              JavasCript HackerRank
+              JavaScript HackerRank
             </ListItem>
             <ListItem
               component="a"
