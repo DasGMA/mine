@@ -49,16 +49,6 @@ const Cv: React.FC = () => {
               <ListItemIcon>
                 <Circle />
               </ListItemIcon>
-              <ListItemText
-                primary="Developed new social media web application from initial design
-            through completion, optimizing cross-browser and multi-platform
-            compatibility"
-              />
-            </ListItem>
-            <ListItem>
-              <ListItemIcon>
-                <Circle />
-              </ListItemIcon>
               <ListItemText primary="Cooperated with a team to deploy frontend and backend applications to AWS cloud-based system. Implemented stringent security guidelines and Software Development Life Cycle practices" />
             </ListItem>
             <ListItem>
